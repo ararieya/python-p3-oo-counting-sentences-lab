@@ -7,9 +7,9 @@ class MyString:
   def get_value(self):
     return self._value
 
-  def set_value(self, stringVal):
-    if (type(stringVal) == str):
-      self._value = stringVal
+  def set_value(self, stringValue):
+    if (type(stringValue) == str):
+      self._value = stringValue
     else:
       print("The value must be a string.")
 
@@ -32,3 +32,4 @@ class MyString:
     sentences = [s for s in value.split('.') if s]
     
     return len(sentences)
+
